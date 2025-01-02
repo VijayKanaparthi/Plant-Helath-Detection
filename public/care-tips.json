@@ -1,0 +1,32 @@
+{
+  "Healthy": {
+    "title": "Your plant is thriving!",
+    "tips": [
+      "Water the plant regularly without overwatering.",
+      "Ensure it gets sufficient sunlight daily (4-6 hours for most plants).",
+      "Dust the leaves gently for better photosynthesis.",
+      "Fertilize the plant once a month with a balanced fertilizer.",
+      "Repot the plant every 1-2 years to provide fresh soil."
+    ]
+  },
+  "Unhealthy": {
+    "title": "Your plant needs some care.",
+    "tips": [
+      "Check for water stress (either too much or too little).",
+      "Ensure the plant is getting enough light (move it to a sunnier spot if needed).",
+      "Consider adding nutrients to the soil if it's depleted of nutrients.",
+      "Prune dead or damaged leaves to allow healthy growth.",
+      "If the plant's leaves are turning yellow, it might need more iron or nitrogen in the soil."
+    ]
+  },
+  "Pest-Affected": {
+    "title": "Pests detected! Time to take action.",
+    "tips": [
+      "Inspect the plant thoroughly for visible pests like aphids, spider mites, or mealybugs.",
+      "Consider using an organic pesticide or insecticidal soap to get rid of pests.",
+      "Remove affected leaves and stems to prevent pests from spreading.",
+      "Use neem oil as a natural pesticide to treat pest infestations.",
+      "Ensure proper air circulation around the plant to prevent pests from settling."
+    ]
+  }
+}
