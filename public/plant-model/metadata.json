@@ -1,1 +1,1 @@
-{"tfjsVersion":"1.3.1","tmVersion":"2.4.7","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2025-01-02T02:59:30.840Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["Healthy Plants","UnHealthy Plants","Pest Affected Plants"],"imageSize":224}
+{"tfjsVersion":"1.3.1","tmVersion":"2.4.7","packageVersion":"0.8.4-alpha2","packageName":"@teachablemachine/image","timeStamp":"2025-01-03T12:15:33.642Z","userMetadata":{},"modelName":"tm-my-image-model","labels":["Healthy","Unhealthy","Pest-Affected","Not a Plant"],"imageSize":224}

@@ -28,5 +28,14 @@
       "Use neem oil as a natural pesticide to treat pest infestations.",
       "Ensure proper air circulation around the plant to prevent pests from settling."
     ]
+  },
+  "Not a Plant": {
+    "title": "It seems you've uploaded something else.",
+    "tips": [
+      "This image doesn't look like a plant.",
+      "Please upload a clear image of a plant for accurate health detection.",
+      "Make sure the plant is visible and not obscured by other objects.",
+      "Try to avoid uploading images of non-plant objects like traffic, books, or furniture."
+    ]
   }
 }

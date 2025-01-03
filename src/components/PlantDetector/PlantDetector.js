@@ -22,12 +22,16 @@ const PlantDetector = () => {
         .expandDims()
 
       const predictions = await model.predict(tensor).data()
-      const classes = ["Healthy", "Unhealthy", "Pest-Affected"]
+      const classes = ["Healthy", "Unhealthy", "Pest-Affected", "Not a Plant"]
 
       const maxIndex = predictions.indexOf(Math.max(...predictions))
       const healthStatus = classes[maxIndex]
-      setResult(healthStatus)
-      fetchTips(healthStatus)
+      if (healthStatus === "Not a Plant") {
+        setResult("Not a Plant")
+      } else {
+        setResult(healthStatus)
+        fetchTips(healthStatus)
+      }
     }
   }
 
@@ -120,7 +124,20 @@ const PlantDetector = () => {
             </ul>
           </div>
         ) : (
-          result && <p>No tips available for this plant health status.</p>
+          result && (
+            <div className="result-container-random">
+              <p> {result}</p>
+            </div>
+          )
+        )}
+        {result === "Not a Plant" && (
+          <>
+            <p>No tips available for this plant health status.</p>
+            <p>
+              This doesn't look like a plant. Please upload a photo of a plant
+              for accurate results. 🌱
+            </p>
+          </>
         )}
       </div>
       <footer className="footer-background">
